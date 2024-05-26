@@ -1,0 +1,26 @@
+.name{
+    padding-bottom: 10px;
+}
+
+.education{
+    padding-bottom: 10px;
+}
+
+.skills{
+    padding-bottom: 10px;
+}
+
+.employment{
+    padding-bottom: 10px;
+}
+
+.projects{
+    padding-bottom: 10px;
+}
+
+#algorithm-visualizer-pic, #mealer-pic {
+    padding-left: 30px;
+    padding-top: 15px;
+    width: auto;
+    height: 200px;
+}
