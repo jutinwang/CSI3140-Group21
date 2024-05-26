@@ -18,6 +18,14 @@
     padding-bottom: 10px;
 }
 
+.name h1{
+    text-align: center;
+}
+
+.category-item{
+    font-style: italic;
+}
+
 #algorithm-visualizer-pic, #mealer-pic {
     padding-left: 30px;
     padding-top: 15px;
