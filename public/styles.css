@@ -1,4 +1,3 @@
-
 body{
     font-family: 'Avenir';
 }
@@ -11,12 +10,17 @@ body{
 .name{
     padding-top: 20px;
     padding-bottom: 10px;
-    padding-left: 100px;
+    padding-left: 225px;
     color: white;
     background-color: rgb(121, 119, 116);
+    
 }
 
 
+
+h4 {
+    font-weight: bold;
+}
 
 .sub-cat{
     text-align:center;
@@ -55,10 +59,6 @@ body{
     text-align: center;
 }
 
-.category-item{
-    font-style: italic;
-}
-
 #algorithm-visualizer-pic, #mealer-pic{
     padding-left: 30px;
     padding-top: 15px;
@@ -67,6 +67,7 @@ body{
 }
 
 .category-item {
+    font-style: italic;
     display: flex;
     justify-content: space-between;
     width: 100%;
@@ -106,12 +107,18 @@ body{
 
 .container {
     display: flex;
-    align-items: center; /* Align items vertically centered */
-    gap: 20px; /* Space between the photo and text */
+    align-items: center; 
+    gap: 20px; 
     padding: 20px;
+<<<<<<< HEAD
     border: 1px solid rgba(173, 216, 230, 0.3); /* Optional border for visual clarity */
     max-width: 800px; /* Optional max-width */
     margin: auto; /* Center the container horizontally */
+=======
+    border: 1px solid #ccc; 
+    max-width: 800px; 
+    margin: auto; 
+>>>>>>> 9faa7fc320a58a091ddfae8286bb49039cf410d1
     margin-top: 10px;
     margin-bottom: 20px;
     border-radius: 5px;
@@ -119,12 +126,12 @@ body{
 }
 
 .photo {
-    max-width: 150px; /* Limit the width of the photo */
-    border-radius: 8px; /* Optional rounded corners */
+    max-width: 150px; 
+    border-radius: 8px; 
 }
 
 .text {
-    flex: 1; /* Allow the text to take the remaining space */
+    flex: 1; 
 }
 
 .info-container {
