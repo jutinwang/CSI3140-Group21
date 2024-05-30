@@ -16,19 +16,17 @@ body{
     background-color: rgb(121, 119, 116);
 }
 
-ul {
-    list-style-type: none;
-}
+
 
 .sub-cat{
     text-align:center;
-    background-color: gainsboro;
+    background-color: lightblue;
     border-width: 40%;
     padding-bottom: 10px;
     margin-bottom: 10px;
     display: inline-block; /* Make the background color span only the text */
     padding: 5px 200px; /* Add padding to left and right */
-    border-radius: 5px; 
+    border-radius: 5px;
 }
 .sub-cat-container{
     display: flex; /* Use flexbox for centering */
@@ -111,13 +109,13 @@ ul {
     align-items: center; /* Align items vertically centered */
     gap: 20px; /* Space between the photo and text */
     padding: 20px;
-    border: 1px solid #ccc; /* Optional border for visual clarity */
+    border: 1px solid rgba(173, 216, 230, 0.3); /* Optional border for visual clarity */
     max-width: 800px; /* Optional max-width */
     margin: auto; /* Center the container horizontally */
     margin-top: 10px;
     margin-bottom: 20px;
     border-radius: 5px;
-    background-color: rgb(234, 221, 202);
+    background-color: rgba(173, 216, 230, 0.3);
 }
 
 .photo {
@@ -127,4 +125,10 @@ ul {
 
 .text {
     flex: 1; /* Allow the text to take the remaining space */
+}
+
+.info-container {
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
 }
