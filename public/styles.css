@@ -2,6 +2,10 @@
     padding-bottom: 10px;
 }
 
+ul {
+    list-style-type: none;
+}
+
 .sub-cat{
     text-align:center;
     background-color: gainsboro;
@@ -61,6 +65,33 @@
     margin: 0;
 }
 
-.main{
-    margin-left: 220px;
+.sidenav {
+    height: 70%;
+    width: 200px;
+    position: fixed;
+    z-index: 1; 
+    top: 75; 
+    left: 25;
+    background-color: rgb(255,235,205);
+    overflow-x: hidden; 
+    padding-top: 100px;
+    padding-left: 20px;
+    border-radius: 5px;
+  }
+
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    display: block;
+  }
+
+.sidebar {
+    text-decoration: underline;
 }
+
+.main {
+    margin-left: 245px;
+    padding: 0px 10px;
+    }
