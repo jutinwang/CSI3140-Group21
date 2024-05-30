@@ -16,8 +16,6 @@ body{
     
 }
 
-
-
 h4 {
     font-weight: bold;
 }
@@ -110,15 +108,9 @@ h4 {
     align-items: center; 
     gap: 20px; 
     padding: 20px;
-<<<<<<< HEAD
-    border: 1px solid rgba(173, 216, 230, 0.3); /* Optional border for visual clarity */
-    max-width: 800px; /* Optional max-width */
-    margin: auto; /* Center the container horizontally */
-=======
     border: 1px solid #ccc; 
     max-width: 800px; 
     margin: auto; 
->>>>>>> 9faa7fc320a58a091ddfae8286bb49039cf410d1
     margin-top: 10px;
     margin-bottom: 20px;
     border-radius: 5px;
