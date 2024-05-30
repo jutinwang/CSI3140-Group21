@@ -1,8 +1,19 @@
+
 body{
     font-family: 'Avenir';
 }
+
+.main {
+    margin-left: 245px;
+    padding: 0px 10px;
+    }
+
 .name{
+    padding-top: 20px;
     padding-bottom: 10px;
+    padding-left: 100px;
+    color: white;
+    background-color: rgb(121, 119, 116);
 }
 
 ul {
@@ -74,7 +85,7 @@ ul {
     width: 200px;
     position: fixed;
     z-index: 1; 
-    top: 75; 
+    top: 50; 
     left: 25;
     background-color: rgb(255,235,205);
     overflow-x: hidden; 
@@ -95,7 +106,25 @@ ul {
     text-decoration: underline;
 }
 
-.main {
-    margin-left: 245px;
-    padding: 0px 10px;
-    }
+.container {
+    display: flex;
+    align-items: center; /* Align items vertically centered */
+    gap: 20px; /* Space between the photo and text */
+    padding: 20px;
+    border: 1px solid #ccc; /* Optional border for visual clarity */
+    max-width: 800px; /* Optional max-width */
+    margin: auto; /* Center the container horizontally */
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    background-color: rgb(234, 221, 202);
+}
+
+.photo {
+    max-width: 150px; /* Limit the width of the photo */
+    border-radius: 8px; /* Optional rounded corners */
+}
+
+.text {
+    flex: 1; /* Allow the text to take the remaining space */
+}
