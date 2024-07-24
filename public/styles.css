@@ -152,3 +152,42 @@ h4 {
     background-color: #e0e0e0; 
   }
   
+  /*updated wordle styling*/
+  .projects-wrapper {
+    display: flex; 
+    justify-content: space-between; 
+    gap: 20px; 
+}
+  
+  .project-item {
+    align-items:start; 
+    gap: 20px; 
+    padding: 20px;
+    border: 1px solid #ccc; 
+    max-width: 800px; 
+    margin: auto; 
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    background-color: rgba(173, 216, 230, 0.3);
+  }
+  
+  .project-item img {
+    max-width: 100%; /* Ensure images fit within the container */
+    border-radius: 8px; /* Rounded corners for images */
+  }
+  
+  .container-wordle{
+    
+    align-items: center; 
+    gap: 20px; 
+    padding: 20px;
+    border: 1px solid #ccc; 
+    max-width: 800px; 
+    margin: auto; 
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    background-color: rgba(173, 216, 230, 0.3);
+}
+
