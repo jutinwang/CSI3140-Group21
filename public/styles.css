@@ -131,3 +131,24 @@ h4 {
     height: auto;
     margin: 0 auto;
 }
+
+/* Styling for projects button link */
+.projects-link a {
+    text-decoration: none; 
+    color: inherit; 
+    display: block;
+  }
+  
+  .projects-link .sub-cat-container {
+    background-color: #FFFFFF; 
+    padding: 10px;
+    border: 1px solid #FFFFFF; 
+    border-radius: 5px; 
+    text-align: center; 
+    transition: background-color 0.3s;
+  }
+  
+  .projects-link .sub-cat-container:hover {
+    background-color: #e0e0e0; 
+  }
+  
